@@ -1,0 +1,61 @@
+.styles{
+    height: 100vh;
+}
+
+
+
+
+
+.home-section{
+  background-color: black;
+  color: white;
+  display: grid;
+
+}
+
+
+.news-text{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+button{
+  width: 50vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 1280px){
+  .header-heading{
+    text-align: left;
+    padding-left: 40px;
+  }
+  
+  .header-text{
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 900px;
+  }
+
+}
+
+
+
+.first--pic{
+  width: 800px;
+  display: block;
+}
+.second--pic{
+  width: 800px;
+  display: block;
+}
+.third--pic{
+  width: 800px;
+  display: block;
+}
+
+.news-image{
+  width: 75vw;
+  height: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,26 @@
+const Values = [
+    {"name": "settings",
+     "url" : "/settings"},
+    {"name": "contact us",
+     "url" : "/contact"},
+    {"name": "about us",
+     "url" : "/about"},
+    {"name": "dark mode",
+     "url" : "/settings"},
+    {"name": "notifications",
+     "url" : "/settings"},
+    {"name": "environment",
+     "url" : "/environment"},
+    {"name": "business",
+     "url" : "/business"},
+    {"name": "religion",
+     "url" : "/religion"},
+    {"name": "war",
+     "url" : "/war"},
+    {"name": "local news",
+     "url" : "/local-news"},
+    {"name": "breaking news",
+     "url" : "/breaking-news"},
+]
+
+export default Values

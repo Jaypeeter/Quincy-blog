@@ -1,0 +1,30 @@
+.settings-section{
+    height: 100vh;
+}
+
+.backangle{
+    padding-left: 50px;
+    font-size:larger;
+  }
+
+  .darkmode-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    outline-color: white;
+    outline: 10px;
+    font-size: larger;
+}
+
+.about-us{
+  margin-left: 22vw;
+  font-size: larger;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1000px){
+  .about-us{
+    margin-left: 14vw;
+  }
+  
+}

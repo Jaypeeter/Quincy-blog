@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #0d6efd;
+    position: relative;
+   
+}
+
+.navbar-button{
+    width: 20px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+
+}
+
+.active{
+    color: black;
+    transform: scale(1.2);
+}
+
+.input-button{
+    width: 60px;
+}
+
+.data-box{
+    width: 355px;
+    height: 250px;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    overflow-y: auto;
+    position: absolute;
+    right: 0;
+}
+
+.data-box::-webkit-scrollbar{
+    display: none;
+}
+
+.searchbar{
+    font-size: medium;
+}
+
+.box-values{
+    text-decoration: none;
+    color: black;
+    
+}
+

@@ -1,0 +1,61 @@
+.about-section{
+ padding-bottom: 48px;
+}
+
+.image-flex{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.image-3{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px){
+    .image-flex{
+        display: block;
+    }
+
+    div.image-1{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+   
+    }
+
+    div.image-2{
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-3{
+        display: flex;
+        margin-left:auto;
+        margin-right: auto;
+    
+    }
+}
+
+.specialties{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.project-text{
+    padding-left: 10px;
+}
+
+@media screen and (min-height: 852px){
+    .about-section{
+    height: 100%;
+    }
+}
+
+@media only screen and (min-height: 1000px) and (max-width: 1370px)  {
+    .about-section{
+      padding-bottom: 50vh;
+    }
+}

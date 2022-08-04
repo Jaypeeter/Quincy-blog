@@ -1,0 +1,53 @@
+.contact-section{
+    height: 100vh;
+    position: relative;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.name{
+    width: 80vw;
+    margin-left: 20px;
+    height: 50px;
+}
+
+.email{
+    width: 80vw;
+    margin-left: 20px;
+    height: 50px;
+
+
+
+
+}
+
+.description{
+    width: 80vw;
+    margin-left: 20px;
+    height: 200px;
+
+
+}
+
+.contact-button{
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 30px;
+    margin-top: 8px;
+   
+    
+  
+}
+
+.contact-heading{
+    margin-left: 20px;
+}
+
+.loading-image{
+    width: 15px;
+}
